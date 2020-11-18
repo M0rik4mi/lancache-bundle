@@ -61,7 +61,7 @@ RUN \
 RUN \
     echo "**** Install sniproxy ****" \
     && apt-get update \
-    && apt-get install -y \
+    && apt-get install -n \
         sniproxy \
     && \
     echo "**** Install lancache-sniproxy configs ****" \
